@@ -1,16 +1,6 @@
 # cgi_kesko
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A mobile app created at Junction 2019, which shows the possible extension for the K-market website and app. It tracks the expriration time of product based on purchases of particular products made by the custemer. When expirating date of particular product comes.
+There are also a couple of projects added, which do the following 
+1) the code with tracks changes in K-market websites databases and keeps chached versions via SQLite databases on the device as well as does some data preprocessing;
+2) the code for the server app, which emulates the transactions storage and exchange made by K market system.
