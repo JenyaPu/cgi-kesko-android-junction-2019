@@ -1,0 +1,11 @@
+Field;DataFormat;Description
+AreaId;Small Integer;Key for area somewhere in Finland from which area the Customer, who purchased the basket, lives in
+Receipt;Long Integer / BigInteger;surrogate key for each receipt to identify each basket
+TransactionDate;Date;Date of transaction
+BeginHour;Small Integer;Beginning hour of transaction, e.g 11 : 11:00:00 - 11:59:59
+EAN;Varchar(15);EanCode of a product, link to ProductApi
+Quantity;Decimal(10,6);Quantity of products in basket
+PersonAgeGrp;Varchar(5);In which AgeGroup a person, who purchased, belongs. Values found directly  (18-84, 25-34, 35-44,45-54,55-64,56-.. So no descriptions needed? NA means not known)
+Kcustomer;Integer/Small integer;K Customer-code of a person who purchased. Descriptions found from K_Customer_Desc.csv. Also  a short picture/explanation in K-Customers_shortly.png
+QualClass;Varchar(6);Qual classification of a person, who purchased. Points are from 1 to 10 but rougher classification is given. Values can bee seen directly from the data. A short description given in Food_Habit_indicators_desc.txt
+EasyClass;Varchar(6);Easy classification of a person, who purchased. Points are from 1 to 10 but rougher classification is given. Values can bee seen directly from the data. A short description given in Food_Habit_indicators_desc.txt
